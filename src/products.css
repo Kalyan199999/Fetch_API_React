@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    background-color: gray;
+    padding: 5px;
+    gap: 10px;
+}
+
+
+.child{
+    width: 250px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 0.815);
+}

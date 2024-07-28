@@ -1,0 +1,21 @@
+
+img{
+    width: 99%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+img:hover{
+
+    transform: scale(1.101);
+    transition: 2s;
+}
+
+.container p{
+    padding: 5px;
+    font-size: 15px;
+}
+
+span{
+    font-weight: bold;
+}
